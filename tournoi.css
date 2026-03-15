@@ -1,0 +1,98 @@
+.fond{
+    background-image: url(pexels-yaroslav-shuraev-7646200.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: beige;
+}
+.brillant{
+    color: aquamarine;
+    text-shadow: 0 0 5px greenyellow , 0 0 greenyellow, 0 0 20px aqua;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+ul li {
+    color: beige;
+}
+*{
+    margin: 0;
+}
+.block{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+   background: #111;
+   color: white;
+   text-align: center;
+   padding: 25px;
+   font-size: 14px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    overflow: hidden;
+ }
+ .navbar a {
+    color: aquamarine;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+ }
+ .navbar li {
+    float: right;
+ }
+ .navbar a:hover{
+    background-color: gray;
+}
+.carte{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+
+.image{
+    width: 100%;
+    border-radius: 20px; 
+}
+
+.texte{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+#mama{background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.footer{
+   background: #111;
+   color: white;
+   text-align: center;
+   padding: 25px;
+   font-size: 14px;
+}

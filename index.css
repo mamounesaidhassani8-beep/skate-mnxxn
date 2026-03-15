@@ -1,0 +1,124 @@
+
+h1{
+    text-decoration:underline;
+    text-decoration-color: yellow;
+    color: black;
+    font-style: italic;
+}
+ h2{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    text-shadow: 0 0 5px yellow , 0 0 10px yellow , 0 0 20px orange;
+    text-decoration: underline;
+    text-decoration-color: black;
+ }
+ p{
+    color: beige;
+ }
+ body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:black;
+}
+.logo{
+font-size:28px;
+font-weight:700;
+color:white;
+}
+
+.menu{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#00ffcc;
+}
+ * {
+   margin: 0;
+ }
+ .fond{
+   background-image: url(pexels-mauro-colan-figueroa-975381809-20162029.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+.carte{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 20px; 
+}
+
+.texte{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer{
+   background: #111;
+   color: white;
+   text-align: center;
+   padding: 25px;
+   font-size: 14px;
+}
+.block{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.effet{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.effet:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+}
+ p {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+P:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+}
+.container{
+    display: flex;
+    gap: 30px; /* espace entre les blocs */
+}
+
+
+
